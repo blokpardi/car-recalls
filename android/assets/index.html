@@ -1,0 +1,99 @@
+﻿<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/phone.css" />
+        <link rel="stylesheet" type="text/css" href="css/waitcursor.css" />
+        <script src="js/jquery-1.8.2.js" type="text/javascript"></script>
+        <script src="js/jquery-ui-1.9.2.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.js" type="text/javascript"></script>
+        <script src="js/knockout-2.2.0.js" type="text/javascript"></script>
+        <script src="js/mt-functions.js" type="text/javascript"></script>
+        <title>Car Recalls</title>
+
+        <script type="text/html" id="cars-template">
+            <div class='list-item' data-bind="attr: {'data-rnum': recallNumber}" data-clicktype="car">
+                <div class="caricon"></div>
+                <div data-bind="text: componentDescription"></div>
+                <div class='list-item-sub' data-bind="text: manufacturer"></div>
+            </div>
+        </script>
+
+        <script type="text/html" id="car-template">
+            <div class='list-item wrap' data-bind="text: componentDescription"></div>
+            <div class='list-item-sub' data-bind="text: manufacturer"></div>
+            <div class='list-item-title'>Recall date</div>
+            <div class='list-item-normal' data-bind="text: recallDate"></div>
+            <div class='list-item-title'>Issue summary</div>
+            <div class='list-item-normal' data-bind="text: recallSubject"></div>
+            <div class='list-item-title'>Recall summary</div>
+            <div class='list-item-normal' data-bind="text: defectSummary"></div>
+            <div class='list-item-title'>Units affected</div>
+            <div class='list-item-normal' data-bind="text: unitsAffected"></div>
+            <div class='list-item-title'>Issue detail</div>
+            <div class='list-item-normal' data-bind="text: consequenceSummary"></div>
+            <div class='list-item-title'>Notes</div>
+            <div class='list-item-normal' data-bind="text: notes"></div>
+            <div class='list-item-title'>More</div>
+            <a data-bind="attr: {'href' : recallURL, 'target':'_new'}, text: 'Tap for more info'"></a>
+            
+        </script>
+        
+    </head>
+    <body>
+        <div id="body">
+            <div id="header">
+                <div id="noadheader">
+                    <!--<div class="header-title">medicare hospitals</div>-->
+                    <div class="header-title">CAR RECALLS</div>
+                </div>
+                <div id="page-title">getting data...</div>
+                <div id="wp-waiting">
+                    <div id="wp-waiting_1" class="wp-waiting"></div>
+                    <div id="wp-waiting_2" class="wp-waiting"></div>
+                    <div id="wp-waiting_3" class="wp-waiting"></div>
+                    <div id="wp-waiting_4" class="wp-waiting"></div>
+                </div>
+                <div id="searchbox">
+                    <form id="search-form" action="" method="post" onsubmit="return dosearch()">
+                        <input id="search-text" type="text" name="query" placeholder="search" />
+                        <input id="search-submit" type="submit" value="" />
+                    </form>
+                </div>
+                <div id="searcherror">
+                    <div id="searcherrorcontainer">
+                        <div class="list-items pagenormal" id="searchErrorMsg"></div>
+                        <div class="okbutton" id="ok-button">OK</div>
+                    </div>
+                 </div>
+            </div>
+            
+            <div id="cars-list" class="page" data-role="page">
+                <div class="list-items" id="cars" data-bind="template:{name: 'cars-template', foreach: cars}"></div>
+            </div>
+
+            <div id="car-page" class="page" data-role="page">
+                <div class="list-items" id="car" data-bind="template:{name: 'car-template', data: car[0]}"></div>
+            </div>
+
+            <div id="neterror-page" class="page" data-role="page">
+                <div class="list-items pagenormal">Hmm. We're having trouble getting your data from the internet. Please check your network connection and try again.<p>If you have a good connection it may be a problem with the data source. Please try again later.</p> We apologize for the inconvenience. </div>
+            </div>
+
+            
+            <div id="about-page" class="page" data-role="page">
+                <div class="list-items pagenormal">
+                    <div>Car Recalls</div>
+                    <div>Car recall information.</div>
+                    <div>Version 1.0.1.1</div>
+                    <div>A Mindtile App</div>
+                    <div>Realtime car recall data from the National Highway Traffic Safety Administration (NHTSA).</div>
+                    <div style="margin-top:25px;"><a href="http://mindtile.com">Get more great apps from <br /><br /><img src="images/logo-70.png" /></a></div>
+                </div>
+               
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+!SESSION 2014-03-10 14:52:34.404 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-10 14:53:35.237
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.sdklib.internal.avd.AvdManager.parseAvdInfo(AvdManager.java:1387)
+	at com.android.sdklib.internal.avd.AvdManager.buildAvdList(AvdManager.java:1366)
+	at com.android.sdklib.internal.avd.AvdManager.<init>(AvdManager.java:315)
+	at com.android.sdklib.internal.avd.AvdManager.getInstance(AvdManager.java:325)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:285)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-10 14:53:35.268
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.sdklib.internal.avd.AvdManager.parseAvdInfo(AvdManager.java:1387)
+	at com.android.sdklib.internal.avd.AvdManager.buildAvdList(AvdManager.java:1366)
+	at com.android.sdklib.internal.avd.AvdManager.<init>(AvdManager.java:315)
+	at com.android.sdklib.internal.avd.AvdManager.getInstance(AvdManager.java:325)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:285)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-10 14:53:37.060
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.sdklib.internal.avd.AvdManager.parseAvdInfo(AvdManager.java:1387)
+	at com.android.sdklib.internal.avd.AvdManager.buildAvdList(AvdManager.java:1366)
+	at com.android.sdklib.internal.avd.AvdManager.<init>(AvdManager.java:315)
+	at com.android.sdklib.internal.avd.AvdManager.getInstance(AvdManager.java:325)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:285)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-03-10 14:53:37.060
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.sdklib.internal.avd.AvdManager.parseAvdInfo(AvdManager.java:1387)
+	at com.android.sdklib.internal.avd.AvdManager.buildAvdList(AvdManager.java:1366)
+	at com.android.sdklib.internal.avd.AvdManager.<init>(AvdManager.java:315)
+	at com.android.sdklib.internal.avd.AvdManager.getInstance(AvdManager.java:325)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:285)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

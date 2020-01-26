@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="300"
+   height="300"
+   sodipodi:docname="BackgroundImage.svg"
+   inkscape:export-filename="C:\Users\bill\SkyDrive\Projects\apps\hospital-experiences\art\AppTileIcon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="150.9868"
+     inkscape:cy="101.22094"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer"
+     transform="translate(0,98)">
+    <rect
+       style="fill:#800033;fill-opacity:1;stroke:none;stroke-width:4.28284979000000020;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2983"
+       width="295.71716"
+       height="295.71716"
+       x="2.1414185"
+       y="-95.858582" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer#1"
+     transform="translate(0,98)">
+    <path
+       id="rect3928-5"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 90.5,73.5 119,0 0,11 -119,0 z m 0,-39.75 119,0 0,11 -119,0 z m 0,-39.75 119,0 0,11 -119,0 z M 62.063663,-59.90625 c -3.272535,0 -5.924029,2.59962 -5.907373,5.82832 l 1.091579,211.59336 c 0.01665,3.2287 2.634839,5.82832 5.907373,5.82832 l 174.781178,0 c 3.27253,0 5.90737,-2.59958 5.90737,-5.82832 l 0,-211.59336 c 0,-3.228741 -2.63484,-5.82832 -5.90737,-5.82832 l -19.48808,0.08959 0.0908,20.303002 -135.971247,-0.473273 -0.05319,-19.919323 z"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3968"
+       width="120.13585"
+       height="29"
+       x="89.932076"
+       y="-75.000061" />
+  </g>
+</svg>
